@@ -1,0 +1,190 @@
+:root{
+	--negro: #191919; /* negro */
+	--blanco: #f0ffff; /* Azure */
+	--colorC: #eee8aa; /* PaleGoldenRod */
+	--colorD: #DB7093; /* PaleVioletRed */
+	--tipografiaA: "Nova Mono";
+}
+body{
+	background-color: var(--colorC);
+}
+.cajaEntera{
+	width: 70%;
+	margin: 0% 15%;
+	background-color: var(--negro);
+}
+h1{
+	font: normal 3em/1.2em 'Nova Mono', fantasy;
+}
+h2{
+	display: block;	
+	margin: 2% 0%;
+	font: normal 2em/1.2em "Nova Mono", fantasy;
+	background-color: var(--colorC);
+	color: var(--colorD);
+	padding: 2% 5%;
+}
+p{
+	font: normal 1.2em/1.4em "Scope One", serif; 
+}
+.cabeza{
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--blanco);
+}
+.cabeza h1{
+	color: var(--negro);
+}
+.cabeza p{
+	margin: 0% 0%;
+}
+.cabeza img{
+	width: 30%;
+	margin: 2% 0% 0%;
+	border-style: solid;
+	border-width: 0px 30px;
+	border-color: var(--colorD);
+}
+.cabeza span{
+	position: relative;
+	bottom: 5%;
+	right: 5%;
+	background-color: var(--negro);
+	color: var(--blanco);
+}
+.cajaColores{
+	width: 100%;
+	margin: 0% 0%;
+}
+.colorA, .colorB, .colorC, .colorD{
+	width: 25%;
+	height: 150px;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font: normal 1.3em/1.1em 'Scope One', serif;
+	text-align: center;
+}
+.cajaColores .colorA{
+	background-color: var(--negro);
+	color: var(--blanco);
+}
+.cajaColores .colorB{
+	background-color: var(--blanco);
+	color: var(--negro);
+}
+.cajaColores .colorC{
+	background-color: var(--colorC);
+	color: var(--negro);
+}
+.cajaColores .colorD{
+	background-color: var(--colorD);
+	color: var(--negro);
+}
+.cajaTipografia{
+	width: 100%;
+	margin: 0% 0%;
+}
+.cajita{
+	width: 50%;
+	float: left;
+}
+.fontA, .fontB{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.fontA{
+	background-color: var(--colorD);
+	color: var(--colorC);	
+}
+.fontA h3{
+	font: normal 2em/1.2em 'Nova Mono', fantasy;
+}
+.fontA p{
+	font: normal 1.6em/1.2em 'Nova Mono', fantasy;
+}
+.fontB{
+	background-color: var(--negro);
+	color: var(--colorC);	
+}
+.fontB h3{
+	font: normal 2em/1.2em "Scope One", serif;
+}
+.fontB p{
+	font: normal 1.6em/1.2em "Scope One", serif;
+}
+.cajaTxt{
+	width: 100%;
+	margin: 0% 0%;
+	background-color: var(--colorC);
+}
+.estiloA, .estiloB, .estiloC{
+	width: 70%;
+	margin: 2% 15%;
+}
+.estiloA span{
+	font: normal 3em/1.2em 'Nova Mono', fantasy;
+}
+.estiloA table{
+	width: 100%;
+	border: 0px;
+	padding: 2%;
+	background-color: var(--colorC);
+}
+.estiloA th{
+	text-align: right;
+	font: bold normal small-caps 1.2em/1.4em "Scope One", serif;
+	padding-right: 2%;
+}
+.estiloA td{
+	text-align: left;
+	font: normal 1.2em/1.4em "Nova Mono", serif;
+	padding-left: 2%;
+}
+.estiloB span{
+	font: normal 2em/1.2em "Nova Mono", fantasy;
+}
+.estiloB table{
+	width: 100%;
+	border: 0px;
+	padding: 2%;
+	background-color: var(--colorC);
+}
+.estiloB th{
+	text-align: right;
+	font: bold normal small-caps 1.2em/1.4em "Scope One", serif;
+	padding-right: 2%;
+}
+.estiloB td{
+	text-align: left;
+	font: normal 1.2em/1.4em "Nova Mono", serif;
+	padding-left: 2%;
+}
+.estiloC span{
+	font: normal 1.6em/1.2em "Scope One", serif;
+}
+.estiloC table{
+	width: 100%;
+	border: 0px;
+	padding: 2%;
+	background-color: var(--colorC);
+}
+.estiloC th{
+	text-align: right;
+	font: bold normal small-caps 1.2em/1.4em "Scope One", serif;
+	padding-right: 2%;
+}
+.estiloC td{
+	text-align: left;
+	font: normal 1.2em/1.4em "Scope One", serif;
+	padding-left: 2%;
+}
